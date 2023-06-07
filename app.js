@@ -111,7 +111,7 @@ function switcher(btc) {
 
     sessionStorage.setItem('username', username);
 
-    window.location.href = '/NEWZETA/game.html';
+    window.location.href = '/game.html';
   }
 }
 
