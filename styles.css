@@ -1,0 +1,38 @@
+.title{
+  text-align: center;
+  /* color: red; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+.in{
+  margin: 10px;
+  font-size: 15px;
+}
+
+body {
+  font-size: 20px;
+}
+
+.countdown {
+  position: fixed;
+  top: 0;
+  left: 5px; /* Adjusted the left property for top left corner */
+}
+
+.score {
+  position: fixed;
+  top: 0;
+  right: 5px; /* Added 'px' unit to the right property for top right corner */
+}
+
+.cusername{
+  text-align: center;
+  width: 25%;
+  font-size: 20px;
+}
