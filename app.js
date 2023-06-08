@@ -53,7 +53,7 @@ function answered(btc) {
 function generateHTML() {
     let container = document.getElementById("question");
 
-    fetch('http://127.0.0.1:5000/equatefunc')
+    fetch('https://renderzeta.onrender.com/equatefunc')
     .then(response => response.json())
     .then(result => {
         eq = result[0];
@@ -124,7 +124,7 @@ function updateDatabase(username, score) {
   var req = new XMLHttpRequest();
 
   // Set up the request
-  req.open('POST', 'http://127.0.0.1:5000/update_score', true);
+  req.open('POST', 'https://renderzeta.onrender.com/update_score', true);
 
 
   req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
