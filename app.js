@@ -53,7 +53,7 @@ function answered(btc) {
 function generateHTML() {
     let container = document.getElementById("question");
 
-    fetch('https://renderzeta.onrender.com/equatefunc')
+    fetch('https://rendertest-5838.onrender.com/equatefunc')
     .then(response => response.json())
     .then(result => {
         eq = result[0];
