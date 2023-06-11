@@ -5,6 +5,8 @@ let cdf = false;
 let sTime;
 let score = -1;
 let storedUsername = sessionStorage.getItem('username');
+var countdownDuration = 30;
+
 
 
 var startTime = (function () {
@@ -66,7 +68,6 @@ function generateHTML() {
 
   
 // Set the total duration of the countdown in seconds
-var countdownDuration = 5;
 
 // Get the countdown element from your HTML
 var countdownElement = document.getElementById('countdown');
